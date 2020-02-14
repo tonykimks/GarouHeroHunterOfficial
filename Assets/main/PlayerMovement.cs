@@ -31,6 +31,26 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSpeed = 4f;
         }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            animator.SetInteger("Direction", 0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            animator.SetInteger("Direction", 1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            animator.SetInteger("Direction", 2);
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            animator.SetInteger("Direction", 3);
+        }
     }
 
     private void FixedUpdate()

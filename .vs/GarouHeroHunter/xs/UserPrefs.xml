@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{6C07646C-1A06-A81B-7D76-FC41BBAF1110}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/main/PlayerMovement.cs">
+    <Files>
+      <File FileName="Assets/battle/Move.cs" Line="35" Column="34" />
+      <File FileName="Assets/Stat.cs" Line="63" Column="24" />
+      <File FileName="Assets/Character.cs" Line="34" Column="41" />
+      <File FileName="Assets/Resources.cs" Line="495" Column="64" />
+      <File FileName="Assets/battle/Battle.cs" Line="327" Column="31" />
+      <File FileName="Assets/DamageMove.cs" Line="13" Column="223" />
+      <File FileName="Assets/battle/StatMove.cs" Line="10" Column="164" />
+      <File FileName="Assets/StatusMove.cs" Line="14" Column="40" />
+      <File FileName="../One Punch Mon/Assets/Battle.cs" Line="463" Column="9" />
+      <File FileName="Assets/main/Main.cs" Line="21" Column="79" />
+      <File FileName="Assets/main/PlayerMovement.cs" Line="8" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

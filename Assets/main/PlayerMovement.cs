@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public bool running = false;
+    public AudioSource battleMusic;
 
     public GameObject battleStartPanel;
 
@@ -86,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator startBattle()
     {
+        battleMusic.Play();
         battleStartPanel.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
         yield return new WaitForSeconds(0.2f);
         battleStartPanel.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
